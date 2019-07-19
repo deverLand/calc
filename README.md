@@ -32,12 +32,15 @@ Jest is a tool very similar to Mocha, although they have differences:
 Jest can be installed in any other project using *Yarn*:
 
 ```yarn add --dev jest```
-
 ```yarn global add jest```
 
 or through *npm*
-node _v8: ```npm install --save-dev jest [--global]```
-node _v12: ```npm i --only=dev jest [--global]```
+
+node _v8: 
+```npm install --save-dev jest [--global]```
+
+node _v12: 
+```npm i --only=dev jest [--global]```
 
 3. Add to your *package.json* this line:
 ```json
