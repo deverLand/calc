@@ -13,7 +13,7 @@ Jest is a tool very similar to Mocha, although they have differences:
  * Mocha requires more configuration, while Jest works usually out of the box, thanks to being opinionated
  * Mocha is older and more established, with more tooling integrations
 
-## Prerequisites, Installations, Test Procedure
+## Setup, Test Procedure Overview
 
  1. Jest requires *nodejs* to be installed.
  2. Jest installed in a project or globally via *yarn* or *npm*
@@ -23,6 +23,8 @@ Jest is a tool very similar to Mocha, although they have differences:
     * *yarn test* or *npm test*
     * *yarn test [*.test.js]* or *npm test [*.test.js]*
 
+
+## Step-by-step
 1. Not in the scope of this tutorial.
 
 2. Jest is automatically installed in ```create-react-app```, so if you use that, you don’t need to install Jest.
@@ -43,4 +45,7 @@ node _v12: ```npm i --only=dev jest [--global]```
 }```
 
 4. Write the test script. Fundamentally there are three (3) parts in a test script:
-    1. 
+    1. import <module_files>
+    2. describe('module')
+    3. test (TDD) or it (BDD)
+    4. test script
