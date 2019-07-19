@@ -1,6 +1,6 @@
 # Jest testing session 1
 
-##What is Jest?
+## What is Jest?
 **Jest** is an open source library for testing JavaScript code. It is a project maintained and created by Facebook engineers for its *React* project. Its strengths are:
 
  * it’s fast
@@ -30,7 +30,9 @@ Jest is a tool very similar to Mocha, although they have differences:
 2. Jest is automatically installed in ```create-react-app```, so if you use that, you don’t need to install Jest.
 
 Jest can be installed in any other project using *Yarn*:
+
 ```yarn add --dev jest```
+
 ```yarn global add jest```
 
 or through *npm*
@@ -44,7 +46,7 @@ node _v12: ```npm i --only=dev jest [--global]```
     ... 
 }```
 
-4. Write the test script. Fundamentally there are three (3) parts in a test script:
+4. Write the test script. Normally, there are three (3) parts in a test script:
     1. import <module_files>
     2. describe('module')
     3. test (TDD) or it (BDD)
