@@ -1,4 +1,4 @@
-# Jest testing session 1
+# Jest testing session
 
 ## What is Jest?
 **Jest** is an open source library for testing JavaScript code. It is a project maintained and created by Facebook engineers for its *React* project. Its strengths are:
