@@ -47,7 +47,8 @@ node _v12:
 "scripts": { 
     "test": "jest [--verbose]", 
     ... 
-}```
+}
+```
 
 4. Write the test script. Normally, there are three (3) parts in a test script:
     1. import <module_files>
