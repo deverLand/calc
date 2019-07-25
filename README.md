@@ -54,3 +54,13 @@ node _v12:
     2. describe('module')
     3. test (TDD) or it (BDD)
     4. test script
+    
+## Notes
+by default, jest runs all js files inside __test__ folder
+mocks are off by default, jest will search mock files in __mockes__
+jest saves all snapchats inside __snapshots__
+jest can run test inside a fake DOM implementation
+
+additional params on run: 
+```jest --watch```
+```jest --coverage```
